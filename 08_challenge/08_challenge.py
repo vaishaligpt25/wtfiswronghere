@@ -12,7 +12,7 @@ For all integers between 1 and 99 (include both):
 class Fizz_Buzz:
     "Class to implement FizzBuzz for multiples of 3 and 5"
 
-    def fizzbuzz(max_num):
+    def fizzbuzz(self,max_num):
         "This method implements FizzBuzz"
         
         # adding some redundant declarations on purpose
@@ -20,7 +20,7 @@ class Fizz_Buzz:
         three_mul = 'fizz'
         five_mul = 'buzz'
         num1 = 3
-        num2 = 5 
+        num2 = 5
 
         # Google for 'range in python' to see what it does
         for i in range(1,max_num):
